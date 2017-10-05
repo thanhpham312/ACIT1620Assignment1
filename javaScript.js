@@ -34,7 +34,7 @@ if (typeof currentImgList === "undefined") {
 
 // Define functions:
 
-function displayImg(currentImgList) {
+function displayImg() {
     if(currentImgList[0] == "rm") {
         topImg.style.boxShadow = "0px 0px 0px 5px rgba(2, 168, 243, 0.5)";
         bottomImg.style.boxShadow = "0px 0px 0px 5px rgba(255, 255, 255, 0.8)";
@@ -67,19 +67,19 @@ function displayImg(currentImgList) {
 function changeFocus(imgNum) {
     if(imgNum == 1) {
         currentImgList = imgList1;
-        displayImg(currentImgList);
+        displayImg();
     }
     else if(imgNum == 2) {
         currentImgList = imgList2;
-        displayImg(currentImgList);
+        displayImg();
     }
     else if(imgNum == 3) {
         currentImgList = imgList3;
-        displayImg(currentImgList);
+        displayImg();
     }
     else if(imgNum == 4) {
         currentImgList = imgList4;
-        displayImg(currentImgList);
+        displayImg();
     }
 }
 
@@ -233,12 +233,12 @@ function resetImg() {
     else if(currentImgList[0] == "fr") {
         rightImg.removeAttribute("style")
     }
-    displayImg(currentImgList);
+    displayImg();
 }
 
 // Run script:
 
-displayImg(currentImgList);
+displayImg();
 
 // Change focus:
 
