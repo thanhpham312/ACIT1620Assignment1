@@ -101,58 +101,58 @@ function showClickedImg(thumbNum) {
 function moveImg(moveNum) {
     if(currentImgList[0] == "rm") {
         if(moveNum == 1) {
-            topImg.style.left = topImg.offsetLeft + 120 - 5 + "px";
+            topImg.style.left = topImg.offsetLeft + 120 - 30 + "px";
         }
         else if(moveNum == 2) {
-            topImg.style.left = topImg.offsetLeft + 120 + 5 + "px";
+            topImg.style.left = topImg.offsetLeft + 120 + 30 + "px";
         }
         else if(moveNum == 3) {
-            topImg.style.top = topImg.offsetTop + 67.5 - 5 + "px";
+            topImg.style.top = topImg.offsetTop + 67.5 - 30 + "px";
         }
         else if(moveNum == 4) {
-            topImg.style.top = topImg.offsetTop + 67.5 + 5 + "px";
+            topImg.style.top = topImg.offsetTop + 67.5 + 30 + "px";
         }
     }
     else if(currentImgList[0] == "ar") {
         if(moveNum == 1) {
-            bottomImg.style.left = bottomImg.offsetLeft + 120 - 5 + "px";
+            bottomImg.style.left = bottomImg.offsetLeft + 120 - 30 + "px";
         }
         else if(moveNum == 2) {
-            bottomImg.style.left = bottomImg.offsetLeft + 120 + 5 + "px";
+            bottomImg.style.left = bottomImg.offsetLeft + 120 + 30 + "px";
         }
         else if(moveNum == 3) {
-            bottomImg.style.top = bottomImg.offsetTop + 67.5 - 5 + "px";
+            bottomImg.style.top = bottomImg.offsetTop + 67.5 - 30 + "px";
         }
         else if(moveNum == 4) {
-            bottomImg.style.top = bottomImg.offsetTop + 67.5 + 5 + "px";
+            bottomImg.style.top = bottomImg.offsetTop + 67.5 + 30 + "px";
         }
     }
     else if(currentImgList[0] == "bj") {
         if(moveNum == 1) {
-            leftImg.style.left = leftImg.offsetLeft + 120 - 5 + "px";
+            leftImg.style.left = leftImg.offsetLeft + 120 - 30 + "px";
         }
         else if(moveNum == 2) {
-            leftImg.style.left = leftImg.offsetLeft + 120 + 5 + "px";
+            leftImg.style.left = leftImg.offsetLeft + 120 + 30 + "px";
         }
         else if(moveNum == 3) {
-            leftImg.style.top = leftImg.offsetTop + 67.5 - 5 + "px";
+            leftImg.style.top = leftImg.offsetTop + 67.5 - 30 + "px";
         }
         else if(moveNum == 4) {
-            leftImg.style.top = leftImg.offsetTop + 67.5 + 5 + "px";
+            leftImg.style.top = leftImg.offsetTop + 67.5 + 30 + "px";
         }
     }
     else if(currentImgList[0] == "fr") {
         if(moveNum == 1) {
-            rightImg.style.left = rightImg.offsetLeft + 120 - 5 + "px";
+            rightImg.style.left = rightImg.offsetLeft + 120 - 30 + "px";
         }
         else if(moveNum == 2) {
-            rightImg.style.left = rightImg.offsetLeft + 120 + 5 + "px";
+            rightImg.style.left = rightImg.offsetLeft + 120 + 30 + "px";
         }
         else if(moveNum == 3) {
-            rightImg.style.top = rightImg.offsetTop + 67.5 - 5 + "px";
+            rightImg.style.top = rightImg.offsetTop + 67.5 - 30 + "px";
         }
         else if(moveNum == 4) {
-            rightImg.style.top = rightImg.offsetTop + 67.5 + 5 + "px";
+            rightImg.style.top = rightImg.offsetTop + 67.5 + 30 + "px";
         }
     }
     /*else if(currentImgList[0] == "ar") {
