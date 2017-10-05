@@ -64,19 +64,33 @@ body {
     position: fixed;
     left: 50%;
     margin-left: -337px;
-    bottom: 0;
+    bottom: -80px;
     width: 674px;
     height: 70px;
     background-color: white;
     padding: 5px 0;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+#controlPanelMisc {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    margin-left: -337px;
+    bottom: 5px;
+    width: 674px;
+    height: 70px;
+    padding: 5px 0;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
 .controlButton {
     width: 70px;
     height: 100%;
     display: inline-block;
-    background-color: rgba(2, 168, 243, 1);;
+    background-color: rgba(2, 168, 243, 1);
     border-radius: 10px;
     background-size: cover;
     transition: 0.3s;
@@ -87,39 +101,75 @@ body {
     cursor: pointer;
 }
 
+#resetField {
+    width: 70px;
+    margin: 0 222px;
+    background-color: rgba(2, 168, 243, 0);
+}
+
 /* Control buttons */
+
 #thumbImg1 {
-    background-image: url(img/img1.png)
+    background-image: url(img/img1.png);
 }
 
 #thumbImg2 {
-    background-image: url(img/img2.png)
+    background-image: url(img/img2.png);
 }
 
 #thumbImg3 {
-    background-image: url(img/img3.png)
+    background-image: url(img/img3.png);
 }
 
 #buttonLeft {
-    background-image: url(img/left.svg)
+    background-image: url(img/left.svg);
 }
 
 #buttonRight {
-    background-image: url(img/right.svg)
+    background-image: url(img/right.svg);
 }
 
 #buttonUp {
-    background-image: url(img/up.svg)
+    background-image: url(img/up.svg);
 }
 
 #buttonDown {
-    background-image: url(img/down.svg)
+    background-image: url(img/down.svg);
 }
 
-#buttonZoomIn {
-    background-image: url(img/zoomIn.svg)
+#buttonGrow {
+    background-image: url(img/zoomIn.svg);
 }
 
-#buttonZoomOut {
-    background-image: url(img/zoomOut.svg)
+#buttonShrink {
+    background-image: url(img/zoomOut.svg);
+}
+
+/* Misc buttons */
+
+#buttonShow {
+    background-image: url(img/show.svg);
+    background-position: 50% 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 1);
+}
+
+#buttonHide {
+    background-image: url(img/hide.svg);
+    background-position: 50% 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 1);
+}
+
+#buttonReset {
+    background-image: url(img/reset.svg);
+    background-position: 50% 50%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 1);
 }
