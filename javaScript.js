@@ -233,6 +233,7 @@ function resetImg() {
     else if(currentImgList[0] == "fr") {
         rightImg.removeAttribute("style")
     }
+    displayImg(currentImgList);
 }
 
 // Run script:
