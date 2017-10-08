@@ -80,7 +80,7 @@ body {
     margin-left: -337px;
     bottom: 5px;
     width: 674px;
-    height: 70px;
+    height: 50px;
     padding: 5px 0;
     border-radius: 10px;
     transition: 0.3s;
@@ -102,7 +102,7 @@ body {
 }
 
 #resetField {
-    width: 70px;
+    width: 90px;
     margin: 0 222px;
     background-color: rgba(2, 168, 243, 0);
 }
@@ -147,29 +147,24 @@ body {
 
 /* Misc buttons */
 
-#buttonShow {
-    background-image: url(img/show.svg);
+.miscButton {
     background-position: 50% 50%;
     background-size: 80%;
     background-repeat: no-repeat;
     border-radius: 50%;
     box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 1);
+    width: 50px;
+    height: 50px;
+}
+
+#buttonShow {
+    background-image: url(img/show.svg);
 }
 
 #buttonHide {
     background-image: url(img/hide.svg);
-    background-position: 50% 50%;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 1);
 }
 
 #buttonReset {
     background-image: url(img/reset.svg);
-    background-position: 50% 50%;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 1);
 }
